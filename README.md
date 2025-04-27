@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# repos-trending
-This is a React application that displays the top 20 trending repositories from GitHub using the GitHub REST API. Users can view the repositories, click on them to see detailed information about the repository, and navigate between pages smoothly.
-=======
 # GitHub Trending Repositories
 
 This is a React application that displays the top 20 trending repositories from GitHub using the GitHub REST API. Users can view the repositories, click on them to see detailed information about the repository, and navigate between pages smoothly.
@@ -11,8 +7,6 @@ This is a React application that displays the top 20 trending repositories from 
 - Dashboard View: Displays a list of the top 20 trending repositories based on stars.
 - Project Details Page: Click on any repository to view detailed information like owner, stars, topics.
 - Dynamic Routing: The application uses React Router to navigate between the Dashboard and Project Details pages.
-
-You can view the project [GitHub Pages](https://<your-username>.github.io/<repo-name>).
 
 ## Technologies Used
 
@@ -33,4 +27,3 @@ You can view the project [GitHub Pages](https://<your-username>.github.io/<repo-
 4. Run the server:
    pnpm start
 5. Open your browser and visit http://localhost:5173 to see the app in action.
->>>>>>> 9d9913d (Initial commit - React app with trending GitHub repos)
