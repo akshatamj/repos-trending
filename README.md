@@ -27,4 +27,3 @@ This is a React application that displays the top 20 trending repositories from 
 4. Run the server:
    pnpm start
 5. Open your browser and visit http://localhost:5173 to see the app in action.
->>>>>>> 9d9913d (Initial commit - React app with trending GitHub repos)
