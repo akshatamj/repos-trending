@@ -18,7 +18,11 @@ const Dashboard = () => {
       })
       .catch((err) => {
         console.error(err);
-        setError("Failed to load the repositories. Please try again Later!");
+        if (err.response && err.response.status === 403) {
+          setError("API rate limit exceeded. Please wait and try again later.");
+        } else {
+          setError("Failed to load the repositories. Please try again Later!");
+        }
         setLoading(false);
       });
   }, []);
